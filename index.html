@@ -3,6 +3,7 @@
     <head>
         <script src="JavaScript/Calculator.js"></script>
         <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <title>Rye's Calculator</title>
     </head>
 
     <body>
@@ -10,15 +11,16 @@
 
         <nav>
             <ul>
-                <li><a class="active" href="Calculator.html">Calculator</a></li>
+                <li><a class="active" href="index.html">Calculator</a></li>
                 <li><a href="BigNumCalculator.html">Big Number Number</a></li>
                 <li><a href="Polynomial.html">Polynomial</a></li>
+                <li><a href="SpecialCalculator.html">Special Calculator</a></li>
             </ul>
         </nav>
         <div class="Calculator">
-            <div>Please input number a here:</div>
+            <div>a:</div>
             <input type="text" id="number1" class="number">
-            <div>Please input number b here:</div>
+            <div>b:</div>
             <input type="text" id="number2" class="number">
             <br>
             <button type="button" onclick="Plus()">a + b</button>
@@ -26,8 +28,11 @@
             <button type="button" onclick="Multiply()">a - b</button>
             <button type="button" onclick="Divide()">a / b</button>
             <button type="button" onclick="Pow()">a ^ b</button>
-            <button type="button" onclick="Mod()">a % b</button>
+            <button type="button" onclick="Mod()">a mod b</button>
             <button type="button" onclick="Sqrt()"> √(a * b)</button>
+            <button type="button" onclick="SinPlus()"> Sin(a + b)</button>
+            <button type="button" onclick="CosPlus()"> Cos(a + b)</button>
+            <button type="button" onclick="TanPlus()"> tan(a + b)</button>
             <br>
             <br>
             <div>Result: </div>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="JavaScript/SpecialCalculator.js"></script>
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <title>Special Calculator -- Rye's Calculator</title>
+    </head>
+
+    <body>
+        <div id="header"><div id="slogan">Rye's Calculator</div></div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Calculator</a></li>
+                <li><a href="BigNumCalculator.html">Big Number Number</a></li>
+                <li><a href="Polynomial.html">Polynomial</a></li>
+                <li><a class="active" href="SpecialCalculator.html">Special Calculator</a></li>
+            </ul>
+        </nav>
+
+        <div class="Calculator">
+            <input type="text" id="SpecialCalculator" class="number">
+            <br>
+            <button type="button" onclick="PI()">a * π</button>
+            <button type="button" onclick="Sin()">Sin a</button>
+            <button type="button" onclick="Cos()">Cos a</button>
+            <button type="button" onclick="Tan()">tan a</button>
+            <button type="button" onclick="Log()">log a</button>
+            <button type="button" onclick="Sqrt()">√a</button>
+            <button type="button" onclick="Exp()">e^a</button>
+            <br>
+            <br>
+            <div>Result: </div>
+            <textarea type="text" id="sum"></textarea>
+            <br>
+            
+        </div>
+
+    </body>
+</html>

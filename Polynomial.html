@@ -3,8 +3,8 @@
     <head>
         <script src="JavaScript/Polynomial.js"></script>
         <link rel="stylesheet" type="text/css" href="CSS/style.css">
-        <script src="https://peterolson.github.io/BigInteger.js/BigInteger.min.js"></script>
-
+        <script src="Plugins/BigInteger/BigInteger.min.js"></script>
+        <title>Polynormial Calculator -- Rye's Calculator</title>
     </head>
 
     <body>
@@ -15,18 +15,21 @@
                 <li><a href="index.html">Calculator</a></li>
                 <li><a href="BigNumCalculator.html">Big Number Number</a></li>
                 <li><a class="active" href="Polynomial.html">Polynomial</a></li>
+                <li><a href="SpecialCalculator.html">Special Calculator</a></li>
             </ul>
         </nav>
 
         <div class="Calculator">
             <div>b:</div>
-            <input type="text" id="number1" class="number">
+            <input type="text" id="number1" class="number"> 
             <div>e:</div>
             <input type="text" id="number2" class="number">
             <div>n:</div>
             <input type="text" id="number3" class="number">
 
             <br>
+            <button type="button" onclick="Multiply()">(b+e) * n</button>
+            <button type="button" onclick="Division()">(b+e) / n</button>
             <button type="button" onclick="modPow()">x^e mod n</button>
             <button type="button" onclick="modMultiply()">x*e mod n</button>
             <br>

@@ -49,8 +49,32 @@ function Pow(){
 function Sqrt(){
     var a = document.getElementById("number1").value;
     var b = document.getElementById("number2").value;
-    var c, sum;
+    var sum;
     sum = Math.sqrt(Number(a) * Number(b));
+    document.getElementById("sum").innerHTML = Number(sum);
+}
+
+function SinPlus(){
+    var a = document.getElementById("number1").value;
+    var b = document.getElementById("number2").value;
+    var sum;
+    sum = Math.sin(Number(a) + Number(b));
+    document.getElementById("sum").innerHTML = Number(sum);
+}
+
+function CosPlus(){
+    var a = document.getElementById("number1").value;
+    var b = document.getElementById("number2").value;
+    var sum;
+    sum = Math.cos(Number(a) + Number(b));
+    document.getElementById("sum").innerHTML = Number(sum);
+}
+
+function TanPlus(){
+    var a = document.getElementById("number1").value;
+    var b = document.getElementById("number2").value;
+    var sum;
+    sum = Math.tan(Number(a) + Number(b));
     document.getElementById("sum").innerHTML = Number(sum);
 }
 
