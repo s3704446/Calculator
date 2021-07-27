@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="JavaScript/BigNumCalculator.js"></script>
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <script src="Plugins/BigInteger/BigInteger.min.js"></script>
+    </head>
+
+    <body>
+        <div id="header"><div id="slogan">Rye's Calculator</div></div>
+
+        <nav>
+            <ul>
+                <li><a href="Calculator.html">Calculator</a></li>
+                <li><a class="active"  href="BigNumCalculator.html">Big Number Number</a></li>
+                <li><a href="Polynomial.html">Polynomial</a></li>
+            </ul>
+        </nav>
+        <div class="Calculator">
+            <div>Please input number a here:</div>
+            <input type="text" id="number1" class="number">
+            <div>Please input number b here:</div>
+            <input type="text" id="number2" class="number">
+            <br>
+            <button type="button" onclick="BigNumPlus()">a + b</button>
+            <button type="button" onclick="BigNumMinus()">a - b</button>
+            <button type="button" onclick="BigNumMultiply()">a - b</button>
+            <button type="button" onclick="BigNumDivide()">a / b</button>
+            <button type="button" onclick="BigNumPow()">a ^ b</button>
+            <button type="button" onclick="BigNumMod()">a % b</button>
+            <button type="button" onclick="BigNumNeg()">a^-1 % b</button>
+            <button type="button" onclick="BigNumGCD()">gcd(a, b)</button>
+            <button type="button" onclick="BigNumLCM()">lcm(a, b)</button>
+            <br>
+            <br>
+            <div>Result: </div>
+            <textarea type="text" id="sum"></textarea>
+            <br>
+            
+        </div>
+
+    </body>
+</html>

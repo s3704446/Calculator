@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="JavaScript/Polynomial.js"></script>
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <script src="Plugins/BigInteger/BigInteger.min.js"></script>
+    </head>
+
+    <body>
+        <div id="header"><div id="slogan">Rye's Calculator</div></div>
+
+        <nav>
+            <ul>
+                <li><a href="Calculator.html">Calculator</a></li>
+                <li><a href="BigNumCalculator.html">Big Number Number</a></li>
+                <li><a class="active" href="Polynomial.html">Polynomial</a></li>
+            </ul>
+        </nav>
+
+        <div class="Calculator">
+            <div>b:</div>
+            <input type="text" id="number1" class="number">
+            <div>e:</div>
+            <input type="text" id="number2" class="number">
+            <div>n:</div>
+            <input type="text" id="number3" class="number">
+
+            <br>
+            <button type="button" onclick="modPow()">x^e mod n</button>
+            <button type="button" onclick="modMultiply()">x*e mod n</button>
+            <br>
+            <br>
+            <div>Result:</div>
+             <textarea type="text" id="sum"></textarea>
+        </div>  
+
+    </body>
+</html>
