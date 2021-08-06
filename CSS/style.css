@@ -9,7 +9,7 @@ ul{
 }
 nav{
     animation-name: nav-animation;
-    animation-duration: 2.5s;
+    animation-duration: 1.75s;
     animation-timing-function: ease-out;
 }
 @keyframes nav-animation {
@@ -27,8 +27,8 @@ li a{
     text-align: center;
     text-decoration: none;
     animation-name: navbar-animation;
-    animation-duration: 1s;
-    animation-delay: 2.5s;
+    animation-duration: 0.75s;
+    animation-delay: 1.75s;
     opacity: 0;
     animation-fill-mode: forwards;
 }
@@ -51,7 +51,7 @@ li a:hover:not(.active) {
     font-size: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     animation-name: header-animation;
-    animation-duration: 2s;
+    animation-duration: 1.25s;
     animation-timing-function: ease-out;
 }
 @keyframes header-animation {
@@ -60,8 +60,8 @@ li a:hover:not(.active) {
 }
 #slogan{
     animation-name: slogan-animation;
-    animation-duration: 1s;
-    animation-delay: 2s;
+    animation-duration: 0.5s;
+    animation-delay: 1.25s;
     animation-timing-function: ease-out;
     opacity:0;
     animation-fill-mode: forwards;
@@ -75,8 +75,8 @@ li a:hover:not(.active) {
 .Calculator{
     text-align: center;
     animation-name: caluculator-animation;
-    animation-duration: 1.75s;
-    animation-delay: 2.75s;
+    animation-duration: 1.25s;
+    animation-delay: 2s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
     opacity: 0;
