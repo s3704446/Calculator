@@ -82,9 +82,9 @@ li a:hover:not(.active) {
     opacity: 0;
 }
 @keyframes caluculator-animation {
-    0% {opacity: 0;  margin-top: 50px;}
-    70% {opacity: 1; margin-top: 0px;} 
-    100% {opacity: 1; margin-top: 15px;} 
+    0% {opacity: 0;  margin-top: 75px;}
+    70% {opacity: 1; margin-top: 25px;} 
+    100% {opacity: 1; margin-top: 40px;} 
 }
 .number{
     padding:20px;
